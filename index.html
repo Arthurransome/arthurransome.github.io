@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/db7ec8f6dc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo2.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li> 
+                        <li><a href="awards.html">Awards</a></li>
+                        
+                        <li><a href="images/Ransome Enechukwu-Professional Curriculum Vitae.pdf" download="Ransome Enechukwu-Professional Curriculum Vitae.pdf">CV</a></li></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="body"></div>
+                <div class="header-text">
+                    <div class="slideshow">
+                        <div class="slide"><h3>Graphic Designer</h3></div>
+                        <div class="slide"><h3>Software Developer</h3></div>
+                        <div class="slide"><h3>Blockchain & Cryptocurrency</h3></div>
+                    </div>
+                    <h1>Hi, I'm <span>Ransome</span><br> Enechukwu From Nigeria</h1>
+                </div>
+                <script src="script.js"></script>
+                </div>
+            </div>
+
+        </div>
+        <!---about-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/yolo12.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="description">I am a Boundless Optimist with a proven ability to adapt in both self-starting and collaborative 
+                            environments, while staying focused on achieving high-quality results under strict deadlines. <br>Taking up several skills come with the responsibility of handling several opportunities that will come as a result. I have been able to self teach myself about time management and priority placements, learning how to rank task in order of importance and urgency. Committed to helping people shape their Website through the use of compelling graphic designs. <br>I believe in possibilities, I believe in growth, I believe in LOVE. 
+
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Blockchain & Cryptocurrency</span><br>Blockchain and Cryptocurrency Education</li>
+                                <li><span>Software Development</span><br>Developing Scalable Software Applications</li>
+                                <li><span>Graphic Designing</span><br>Compelling graphic designs</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>ipNX</span><br>Network Core and Service Delivery</li>
+                                <li><span>Bariansystems</span><br>Lead Software Developer </li>
+                                <li><span>Binance Africa</span><br>Blockchain / Smart Contract Security</li>
+                                <li><span>University of Lagos </span><br>Assistant Learning Specialist  </li>
+                                <li><span>KylianErp</span><br>Software Engineer</li>
+                                <li><span>Truelandlord</span><br>Frontend Developer </li>
+                                <li><span>Redeemer’s University  </span><br>Tutorial Coordinator</li>
+                                <li><span>Cypress Eye Centre </span><br>Graphic Designer & Social Media Manager</li>
+                                <li><span>States Fiscal Transparency Accountability & Sustainability (SFTAS)</span><br>Software Engineer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018-2020</span><br> Statistics (Pre-Degree) In University of Lagos</li>
+                                <li><span>2020-2021</span><br> A Level (JUPEB) In Atiba University</li>
+                                <li><span>2021-2023</span><br> Computer Science (BSc) In Redeemers University</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>1</span><br>Scrum Master PSM 1 - Scrum Master Certification - Agile 2023</li>
+                                <li><span>2</span><br>Software Development Training -
+                                Bariansystems Limited</li>
+                                <li><span>3</span><br>The Complete Cyber Security Course : Hackers Exposed! - Udemy</li>
+                                <li><span>4</span><br> Fullstack Laravel 10 + Vue.js 3 (2022) - Build APIs and SPAs - Udemy</li>
+                                <li><span>5</span><br>New Horizon Marathon Training: Certified Secure Computer User, SQL Fundamentals, Cisco Certified, Network Associate, Machine Learning with R, Android Mobile Application Development - New Horizon</li>
+                                <li><span>6</span><br> Back-End Development Training - Bariansystems</li>
+                                <li><span>7</span><br> Learning DevOps: Docker, Kubernetes, Terraform and Azure DevOps - Udemy</li>
+                                <li><span>8</span><br> Complete Web & Mobile Designer in 2023: UI/UX, Figma, +more - Udemy</li>
+                                <li><span>9</span><br> Introduction to Computer Networks - Bariansystems</li>
+                                <li><span>10</span><br> Data Communications and Networking - ipNX</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <h2>Graphic Design</h2>
+                        <p>I am a creative director and digital graphics expert, with More than five years of professional expertise as a graphic designer in a variety of fields. Committed to assisting clients in creating a distinctive brand identity through the use of striking graphics. I specialize in 
+                            Graphic Designing, Brand Modeling, UI/UX Design, Brand Identity, Product Design, Video Editing, etc </p>
+
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <h2>Blockchain & Cryptocurrency Education</h2>
+                        <p>I am an experienced Blockchain and Cryptocurrency Educator, dedicated to demystifying complex concepts and empowering individuals with comprehensive knowledge. With over five years of expertise, I specialize in curriculum development, instructional design, and hands-on training, covering areas such as Smart Contracts, Decentralized Finance (DeFi), Cryptocurrency Trading, and Blockchain Development</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Software Development</h2>
+                        <p>As a software developer, I'm excited and deeply committed to crafting inventive and effective solutions that empower both businesses and individuals to reach their objectives.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------portfolio------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/tllflyer.png">
+                        <div class="layer">
+                            <a href="graphicportfolio.html"><i class="fa-solid fa-up-right-from-square"></i></a><br>
+                            <h3>Graphic Design Projects</h3>
+                            <p>Brushing Imagination onto Canvas: A Visual Symphony of Design and Creativity. </p>
+                               
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="images/hey.png">
+                        <div class="layer">
+                            <a href="dev.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <h3>Software/Web Development Projects</h3>
+                            <p>Crafting Digital Experiences: Transforming Ideas into Seamless Web Solutions.</p>
+                                
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/kylianui.png">
+                        <div class="layer">
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <h3>UI/UX Projects</h3>
+                            <p>Sculpting Digital Experiences: Where Vision Meets Interaction.</p>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="skills-container">
+            <div class="skill">
+              <span class="skill-title">HTML5 & CSS3:</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 95%;"></div>
+              </div>
+              <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill">
+              <span class="skill-title">JavaScript:</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%;"></div>
+              </div>
+              <div class="skill-percentage">90%</div>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Vue.js & Nuxt.js:</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+                <div class="skill-percentage">90%</div>
+            </div>
+            <div class="skill">
+                <span class="skill-title">React.js & Next.js:</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+                <div class="skill-percentage">90%</div>
+            </div>
+            <div class="skill">
+                <span class="skill-title">PHP & Laravel:</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+                <div class="skill-percentage">90%</div>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Photoshop & Illustrator:</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%;"></div>
+                </div>
+                <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Premiere Pro & After Effects:</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%;"></div>
+                </div>
+                <div class="skill-percentage">95%</div>
+            </div>
+            <div class="skill">
+                <span class="skill-title">Figma:</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 98%;"></div>
+                </div>
+                <div class="skill-percentage">95%</div>
+            </div>
+             Repeat similar structure for other skills -->
+          </div>
+        <!--------------------------Contact------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>ransomeenechukwu9@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>+2349049845591</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/ransome.enechukwu?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/arthurransomee?s=21&t=0zb2gzwle6xt2kgkOneZbQ"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://instagram.com/og.ransome?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ransome-enechukwu-a7521b203"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+        </script>
+        <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyfudHRBymjOXU0U28rc6bZEDl5qTtU2bIut5BiRd5WF1F3sJ7JVzlDkVzXws4Wsae6/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = " "
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+function showSlide() {
+  slides[currentSlide].style.opacity = '0';
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].style.opacity = '1';
+}
+
+showSlide(); // Show the first slide immediately
+
+setInterval(showSlide, 3000); // Change slide every 3 seconds</script>
+
+    </body>
+
+</html>
